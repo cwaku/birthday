@@ -151,11 +151,11 @@ $('document').ready(function(){
 		$('#b6').attr('id','b66')
 		$('#b7').attr('id','b77')
 		$('#b11').animate({top:240, left: vw-350},500);
-		$('#b22').animate({top:240, left: vw-250},500);
-		$('#b33').animate({top:240, left: vw-150},500);
-		$('#b44').animate({top:240, left: vw-50},500);
-		$('#b55').animate({top:240, left: vw+50},500);
-		$('#b66').animate({top:240, left: vw+150},500);
+		$('#b22').animate({top:240, left: -20},500); //vw-250
+		$('#b33').animate({top:240, left: 40},500); //vw-150
+		$('#b44').animate({top:240, left: 100},500); //vw-50
+		$('#b55').animate({top:240, left: 170},500); //vw+50
+		$('#b66').animate({top:240, left: 240},500); //vw+150
 		$('#b77').animate({top:240, left: vw+250},500);
 		$('.balloons').css('opacity','0.9');
 		$('.balloons h2').fadeIn(3000);
